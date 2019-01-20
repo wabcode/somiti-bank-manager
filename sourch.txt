@@ -1,0 +1,6 @@
+Active your account
+http://localhost/php/ts1/lar2_2/activate.php?email=kamal@gamil.com&email_code= 	code_546386f5b52b79.76215725
+
+
+
+http://www.sunnytuts.com/article/login-and-registration-with-object-oriented-php-and-pdo-part-2

@@ -1,0 +1,149 @@
+#first-block {
+text-align:center;
+padding:3.5em 0;
+}
+footer {
+background:#fff;
+padding:3.5em 0;
+}
+
+/* sticky footer css */
+html {
+height: 100%;
+overflow: hidden;
+}
+ 
+body {
+height: 100%;
+overflow: scroll;
+}
+ 
+.with-sticky-footer {
+display: table;
+height: 100%;
+table-layout: fixed;
+width: 100%; 
+}
+ 
+.sticky-footer {
+display: table-row;
+height: 1px;
+} 
+
+
+@media screen and (max-width: 768px) {
+  .right {
+  float:none;
+  }
+}
+
+
+
+table.tbl2 {
+	margin-top: 10px;
+}
+
+table.tbl2 tr th, table.tbl2 tr td {
+	padding: 2px;
+} 
+
+table.tbl2 tr td {
+	text-align: center;
+}
+
+table.tbl2 tr th {
+	background-color: #9D890D;
+	color: #fff;
+}
+
+table.tbl2 tr:nth-child(2n+1) td {
+	background-color: #CBC380;
+}
+
+table.tbl2 tr:nth-child(2n) td {
+	background-color: #EEEABC;
+}
+
+
+table.tbl2 h3 {
+	border-bottom: 2px solid #000;
+}
+
+
+
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.success {
+	color: green;
+	font-weight: bold;
+}
+
+#profile_picture_m img {
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px #AAA2A2;
+    margin-right: 10px;
+}
+table.mtb {
+	background: none repeat scroll 0 0 #d9d2aa;
+    margin-top: 5px;
+    padding: 8px 30px;
+}
+
+table.mtb tr th, table.tbl2 tr td {
+	padding: 2px;
+} 
+
+table.mtb tr td {
+	text-align: center;
+}
+
+table.mtb tr th {
+	background-color: #9D890D;
+	color: #fff;
+}
+
+table.mtb tr:nth-child(2n+1) td {
+	    background-color: #cbc380;
+    padding: 0 30px
+}
+
+table.mtb tr:nth-child(2n) td {
+	background-color: #cbc380;
+    padding: 0 30px
+}
+
+table.mtb tr td a {
+    color: #30820b;
+    font-size: 20px;
+    padding: 21px;
+    text-decoration: none;
+    text-shadow: 1px 0.5px 1px #635c5c;
+}
+table.mtb tr td a:hover {
+    color: #280B82;
+    font-size: 20px;
+    padding: 21px;
+    text-decoration: none;
+    text-shadow: 1px 0.5px 1px #635c5c;
+    background: rgba(204, 204, 130, 0.38);
+    box-shadow: 0 0 4px 6px #E7E8B0;
+    border-radius: 10px;
+}
+
+
+table.mtb h3 {
+	border-bottom: 2px solid #000;
+}
+
+#menber_contain{
+background: none repeat scroll 0 0 #f7f1e7;
+}
+th.d-1 {
+  background:#e8e8e8; 
+  padding:0;
+}
